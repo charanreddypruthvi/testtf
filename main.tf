@@ -23,7 +23,7 @@ resource "azurerm_subnet" "example" {
 }
 
 resource "azurerm_storage_account" "example" {
-  name                = "demostgaccoo1"
+  name                = "demostgacc2oo1"
   resource_group_name = azurerm_resource_group.example.name
 
   location                 = azurerm_resource_group.example.location
